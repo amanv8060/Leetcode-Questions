@@ -4,7 +4,6 @@ using namespace std;
 class Solution {
  public:
   int maxArea(vector<int>& height) {
-  
     int s = 0;
     int e = height.size() - 1;
 
