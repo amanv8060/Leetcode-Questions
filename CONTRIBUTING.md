@@ -31,6 +31,7 @@ You can add solution to a problems , issues  have been created for all free ques
  6. Format your file with (Instruction below).
  7. Commit the changes and push them to Github.
  8. Create a pull request named in the format `Adding solution for {question number}`
+ 9. Update the pull request commit accordingly.
 
 
 ### Formatting the files 
@@ -49,5 +50,6 @@ You can check out online articles/tutorials availble on the internet .
  
  	  `clang-format -i -style=Google *.cpp`
     
-This is just an example , you can use any way to format your code , the formatting should be based on clang-format and should use Google style
+This is just an example , you can use any way to format your code , the formatting should be based on clang-format and should use Google style . 
+For eg. You can use [this](http://format.krzaq.cc/) website
  
