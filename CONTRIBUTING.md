@@ -1,4 +1,5 @@
 
+
 # Contributing Guide 
 
 If you are new to opensource and don't know how to contribute to a repository , give [this](https://www.dataschool.io/how-to-contribute-on-github/)	a read . 
@@ -34,4 +35,19 @@ You can add solution to a problems , issues  have been created for all free ques
 
 ### Formatting the files 
 
-This repository uses clang-format for formatting the files.
+This repository uses clang-format with `Google` style for formatting the files.
+
+You can check out online articles/tutorials availble on the internet .
+
+> Example usage on Linux
+
+ 1. Install `clang-format` 
+ 
+ 	  `sudo apt-get install clang-format`
+    
+ 2. In your terminal inside `solutions` folder , run the below command
+ 
+ 	  `clang-format -i -style=Google *.cpp`
+    
+This is just an example , you can use any way to format your code , the formatting should be based on clang-format and should use Google style
+ 
