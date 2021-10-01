@@ -1,7 +1,7 @@
 # Example workflow
 name: google-java-format Check
 
-on: [push , pull_request]
+on: [push]
 
 jobs:
 
