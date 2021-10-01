@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 class Solution {
  public:
   int minAddToMakeValid(string s) {
@@ -11,8 +10,7 @@ class Solution {
       if (s[i] == '(') {
         sta.push(s[i]);
         open++;
-      }
-      else if (sta.empty() == false and s[i] == ')' and sta.top() == '(') {
+      } else if (sta.empty() == false and s[i] == ')' and sta.top() == '(') {
         open--;
         sta.pop();
       } else {
