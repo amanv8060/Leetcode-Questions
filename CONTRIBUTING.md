@@ -59,5 +59,5 @@ For eg. You can use [this](http://format.krzaq.cc/) website
 
 This repository uses google-java-format , for instructions on how to setup [Check official docs](https://github.com/google/google-java-format)
 
-Ads of now , you dont need to format , the action will auto format the code , but later on you would be requried to contibute formatted code
+As of now , you dont need to format , the action will auto format the code , but later on you would be requried to contibute formatted code.
  
