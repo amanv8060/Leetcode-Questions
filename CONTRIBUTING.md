@@ -36,6 +36,8 @@ You can add solution to a problems , issues  have been created for all free ques
 
 ### Formatting the files 
 
+#### For Cpp
+
 This repository uses clang-format with `Google` style for formatting the files.
 
 You can check out online articles/tutorials availble on the internet .
@@ -52,4 +54,10 @@ You can check out online articles/tutorials availble on the internet .
     
 This is just an example , you can use any way to format your code , the formatting should be based on clang-format and should use Google style . 
 For eg. You can use [this](http://format.krzaq.cc/) website
+
+#### For Java
+
+This repository uses google-java-format , for instructions on how to setup [Check official docs](https://github.com/google/google-java-format)
+
+As of now , you dont need to format , the action will auto format the code , but later on you would be requried to contibute formatted code.
  
