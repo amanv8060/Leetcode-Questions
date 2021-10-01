@@ -8,9 +8,9 @@ public:
         sort(nums1.begin(), nums1.end());
         
         if (n % 2 == 0) {
-            return (nums1[(double)n/2-1] + nums1[(double)n/2])/2.0;
+            return (nums1[n/2-1] + nums1[n/2])/2.0;
         } else {
-            return nums1[(double)n/2];
+            return nums1[n/2];
         }
     }
 };
