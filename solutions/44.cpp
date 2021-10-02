@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 class Solution {
-public:
+ public:
   bool isMatch(string str, string pattern) {
     int m = pattern.size();
     int n = str.size();
@@ -15,8 +15,7 @@ public:
     dp[0][0] = true;
 
     for (int i = 1; i <= m; i++) {
-      if (pattern[i - 1] == '*')
-        dp[0][i] = dp[0][i - 1];
+      if (pattern[i - 1] == '*') dp[0][i] = dp[0][i - 1];
     }
     for (int i = 1; i < n + 1; i++) {
       for (int j = 1; j < m + 1; j++) {
