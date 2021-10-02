@@ -1,0 +1,14 @@
+# Example workflow
+name: google-java-format Check
+
+on: [push]
+
+jobs:
+
+  formatting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2 
+      - uses: axel-op/googlejavaformat-action@v3
+        with:
+          args: "--replace"
