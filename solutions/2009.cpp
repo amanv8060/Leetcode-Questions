@@ -2,7 +2,7 @@
 using namespace std;
 
 class Solution {
-public:
+    public:
     int minOperations(vector<int>& nums) {
         // If there is only a single element
         // No need to make any operations
