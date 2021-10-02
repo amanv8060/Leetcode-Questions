@@ -1,10 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 class Solution {
-public:
+ public:
   int countPrimes(int n) {
-    if (n < 2)
-      return 0;
+    if (n < 2) return 0;
     vector<bool> Prime(n + 1, true);
 
     Prime[0] = false;
