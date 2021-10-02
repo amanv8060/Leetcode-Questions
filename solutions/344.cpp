@@ -2,9 +2,8 @@
 using namespace std;
 
 class Solution {
-public:
+ public:
   void reverseString(vector<char> &s) {
-
     int i;
     int n = s.size();
     for (i = 0; i < n / 2; i++) {
