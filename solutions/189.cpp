@@ -2,7 +2,7 @@
 using namespace std;
 
 class Solution {
-public:
+ public:
   void rotate(vector<int> &nums, int k) {
     int n = nums.size();
     for (int i = 0; i < gcd(n, k); ++i)
