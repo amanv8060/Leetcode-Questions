@@ -2,14 +2,13 @@
 using namespace std;
 
 class Solution {
-public:
+ public:
   int smallestChair(vector<vector<int>> &times, int targetFriend) {
     int time = times[targetFriend][0];
     vector<int> arrival(time + 1, -1);
 
     for (int i = 0; i < times.size(); i++) {
-      if (times[i][0] <= time)
-        arrival[times[i][0]] = i;
+      if (times[i][0] <= time) arrival[times[i][0]] = i;
     }
     int chair = -1;
     for (int i = 1; i <= time; i++) {
@@ -24,8 +23,7 @@ public:
           } else
             j++;
         }
-        if (j == time)
-          break;
+        if (j == time) break;
       }
     }
     return chair;
