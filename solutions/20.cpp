@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-//Solution
+
 class Solution {
  public:
   bool isValid(string s) {
@@ -13,7 +13,6 @@ class Solution {
           st.pop();
         else
           return false;
-
       } else if (s[i] == ']') {
         if (!st.empty() && st.top() == '[')
           st.pop();
