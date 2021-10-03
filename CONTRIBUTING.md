@@ -31,7 +31,7 @@ You can add solution to a problems , issues  have been created for all free ques
  6. Format your file with (Instruction below).
  7. Commit the changes and push them to Github.
  8. Create a pull request named in the format `Adding solution for {question number}`
- 9. Update the pull request commit accordingly.
+ 9. Update the pull request comment accordingly.
 
 
 ### Formatting the files 
