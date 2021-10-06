@@ -32,6 +32,8 @@ You can add solution to a problems , issues  have been created for all free ques
  7. Commit the changes and push them to Github.
  8. Create a pull request named in the format `Adding solution for {question number}`
  9. Update the pull request comment accordingly.
+ 
+> Note : If your pull request doesn't have a proper pull request comment , your pr will be closed. 
 
 
 ### Formatting the files 
